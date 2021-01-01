@@ -316,6 +316,9 @@ const applyStyle = ButtonWrapper => {
   );
 };
 
+/**
+ * Oh Button my Button
+ */
 export function Button({
   isDisabled,
   isLoading,

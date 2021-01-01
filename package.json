@@ -1,6 +1,6 @@
 {
   "name": "hellotham-learnstorybook-design-system",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "license": "MIT",
   "dependencies": {
@@ -22,7 +22,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token uq2ysud28he",
-    "build-storybook-docs": "build-storybook -s public --docs"
+    "build-storybook-docs": "build-storybook -s public --docs",
+    "release": "auto shipit --base-branch=main"
   },
   "eslintConfig": {
     "extends": "react-app"

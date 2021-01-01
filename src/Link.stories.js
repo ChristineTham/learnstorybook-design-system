@@ -14,10 +14,11 @@ const CustomLink = styled(Link)`
 
 const onLinkClick = action('onLinkClick');
 
-export default {
+const story = {
   title: 'Design System/Link',
   component: Link,
 };
+export default story;
 
 export const All = (args) => (
   <div>

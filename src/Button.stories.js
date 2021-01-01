@@ -17,10 +17,11 @@ function ButtonWrapper(props) {
   return <CustomButton {...props}/>;
 }
 
-export default {
+const story = {
   title: 'Design System/Button',
   component: Button,
 };
+export default story;
 
 export const AllButtons = (args) => (
   <div>

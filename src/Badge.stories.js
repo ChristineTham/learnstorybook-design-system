@@ -2,10 +2,11 @@ import React from 'react';
 import { Badge } from './Badge';
 import { Icon } from './Icon';
 
-export default {
+const story = {
   title: 'Design System/Badge',
   component: Badge,
 };
+export default story;
 
 export const AllBadges = (args) =>(
   <div>

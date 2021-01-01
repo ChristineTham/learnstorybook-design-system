@@ -48,10 +48,11 @@ const List = styled.ul`
   list-style: none;
 `;
 
-export default {
+const story = {
   title: 'Design System/Icon',
   component: Icon,
 };
+export default story;
 
 export const Labels = (args) => (
   <Fragment>

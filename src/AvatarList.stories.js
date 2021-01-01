@@ -4,6 +4,7 @@ import { AvatarList } from './AvatarList';
 
 const story = {
   title: 'Design System/AvatarList',
+  component: AvatarList,
 };
 export default story;
 
